@@ -15,8 +15,8 @@ sidx-diagnosis/
 
 ## 1. Setup Backend (Laravel)
 
-Karena file di sini hanya berisi logic inti (Controller, Service, routes),
-kamu perlu bikin project Laravel kosong dulu lalu tempel file-nya:
+file di sini hanya berisi logic inti (Controller, Service, routes),
+perlu bikin project Laravel kosong dulu lalu tempel file-nya:
 
 ```bash
 composer create-project laravel/laravel backend-laravel
@@ -78,10 +78,3 @@ git remote add origin https://github.com/<username-kamu>/sidx-diagnosis.git
 git push -u origin main
 ```
 
-Setelah itu, **invite Pak Ilham sebagai collaborator**:
-Repo GitHub → Settings → Collaborators → Add people → masukkan username/email Pak Ilham.
-
-## Catatan
-
-Ini simulasi klasifikasi untuk keperluan akademik (UAS Data Mining), bukan
-alat diagnosis medis sungguhan.
